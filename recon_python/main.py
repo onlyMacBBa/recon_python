@@ -13,7 +13,7 @@ class MiniReconGUI(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle('MiniRecon PyQt5 툴')
+        self.setWindowTitle('MiniRecon')
         self.setGeometry(300, 300, 600, 500)
 
         self.label = QLabel('도메인을 입력하세요:')
