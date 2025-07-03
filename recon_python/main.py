@@ -14,7 +14,7 @@ class MiniReconGUI(QWidget):
 
 
     def init_ui(self):
-        self.setWindowTitle('MiniRecon')
+        self.setWindowTitle('MiniReconGUI')
         self.setGeometry(300, 300, 600, 500)
 
         self.label = QLabel('도메인을 입력하세요:')
