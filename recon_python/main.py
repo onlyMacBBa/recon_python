@@ -12,6 +12,7 @@ class MiniReconGUI(QWidget):
         super().__init__()
         self.init_ui()
 
+
     def init_ui(self):
         self.setWindowTitle('MiniRecon')
         self.setGeometry(300, 300, 600, 500)
